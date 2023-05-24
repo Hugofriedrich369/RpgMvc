@@ -18650,6 +18650,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\Projetos\\YagoHugo\\DS1\\Aula013\\RpgApi\\RpgMvc\\Views\\Disputas\\IndexHabilidades.cshtml",
+      "TargetPath": "Views\\Disputas\\IndexHabilidades.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\Projetos\\YagoHugo\\DS1\\Aula013\\RpgApi\\RpgMvc\\Views\\Disputas\\Index.cshtml",
       "TargetPath": "Views\\Disputas\\Index.cshtml",
       "FileKind": "mvc"
