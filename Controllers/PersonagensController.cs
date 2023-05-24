@@ -11,7 +11,7 @@ namespace RpgMvc.Controllers
 {
     public class PersonagensController : Controller
     {
-        public string uriBase = "http://localhost:5264/Personagens/";
+        public string uriBase = "http://Hugo-DS.somee.com/RpgApi/Personagens/";
 
         [HttpGet]
         public async Task<ActionResult> IndexAsync()
@@ -144,15 +144,18 @@ namespace RpgMvc.Controllers
             {
                 HttpClient httpClient = new HttpClient();
                 string token = HttpContext.Session.GetString("SessionTokenUsuario");
+
                 httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
                 var content = new StringContent(JsonConvert.SerializeObject(p));
                 content.Headers.ContentType = new MediaTypeHeaderValue("application/json");
+
                 HttpResponseMessage response = await httpClient.PostAsync(uriBase, content);
                 string serialized = await response.Content.ReadAsStringAsync();
 
                 if (response.StatusCode == System.Net.HttpStatusCode.OK)
                 {
-                    TempData["Mensagem"] = string.Format("Personagem {0}, classe {1} atualizado com sucesso!", p.Nome, p.Classe);
+                    TempData["Mensagem"] =
+                        string.Format("Personagem {0}, classe {1} atualizado com sucesso!", p.Nome, p.Classe);
 
                     return RedirectToAction("Index");
                 }
@@ -169,7 +172,7 @@ namespace RpgMvc.Controllers
         }
 
 
-        [HttpGet]
+        [HttpDelete]
         public async Task<ActionResult> DeleteAsync(int id)
         {
             try
@@ -197,7 +200,5 @@ namespace RpgMvc.Controllers
                 return RedirectToAction("Index");
             }
         }
-
-
     }
 }

@@ -1,6 +1,20 @@
 <!--Namespace da classe de Modelo para esta view-->
 @model IEnumerable<RpgMvc.Models.PersonagemViewModel>
 <!--Inclua os TempData para Sucesso e Erro aqui, conforme exemplo na view de Autenticação-->
+
+@if (@TempData["Mensagem"] != null)
+{
+    <div class="alert alert-success" role="alert">
+        @TempData["Mensagem"]</div>
+}
+
+
+@if (@TempData["MensagemErro"] != null)
+{
+    <div class="alert alert-danger" role="alert">
+        @TempData["MensagemErro"]</div>
+}
+
 @{
     ViewBag.Title = "Personagens"; 
 }
@@ -44,3 +58,5 @@
         </tr>
     }
 </table>
+
+@Html.ActionLink("Clique aqui para um embate com armas!!!", "Index", "Disputas", null, new { @class = "btn btn-warning"})
