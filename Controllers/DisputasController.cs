@@ -12,7 +12,7 @@ namespace RpgMvc.Controllers
     public class DisputasController : Controller
     {
         //public string uriBaseold = "http://localhost:5164/Disputas/";   
-        public string uriBase = "http://luizsouza.somee.com/RpgApi/";
+        public string uriBase = "http://Hugo-DS.somee.com/RpgApi/";
         //xyz tem que ser substituído pelo nome do seu site na API.
 
         [HttpGet]

@@ -11,7 +11,7 @@ namespace RpgMvc.Controllers
 {
     public class PersonagensController : Controller
     {
-        public string uriBase = "http://luizsouza.somee.com/RpgApi/Personagens/";
+        public string uriBase = "http://Hugo-DS.somee.com/RpgApi/Personagens/";
 
         [HttpGet]
         public async Task<ActionResult> IndexAsync()
