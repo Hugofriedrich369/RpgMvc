@@ -20,6 +20,10 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzcHV0YXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Projetos/YagoHugo/DS1/Aula013/RpgApi/RpgMvc/Views/Disputas/IndexDisputas.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzcHV0YXNcSW5kZXhEaXNwdXRhcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Projetos/YagoHugo/DS1/Aula013/RpgApi/RpgMvc/Views/Disputas/IndexHabilidades.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzcHV0YXNcSW5kZXhIYWJpbGlkYWRlcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -30,6 +34,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/Projetos/YagoHugo/DS1/Aula013/RpgApi/RpgMvc/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projetos/YagoHugo/DS1/Aula013/RpgApi/RpgMvc/Views/PersonagemHabilidades/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uYWdlbUhhYmlsaWRhZGVzXGluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Projetos/YagoHugo/DS1/Aula013/RpgApi/RpgMvc/Views/Personagens/Create.cshtml]
