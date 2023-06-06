@@ -1,0 +1,11 @@
+D:\Projetos\YagoHugo\DS1\Aula013\RpgApi\RpgMvc\Publish\RpgMvc.exe
+D:\Projetos\YagoHugo\DS1\Aula013\RpgApi\RpgMvc\Publish\appsettings.Development.json
+D:\Projetos\YagoHugo\DS1\Aula013\RpgApi\RpgMvc\Publish\appsettings.json
+D:\Projetos\YagoHugo\DS1\Aula013\RpgApi\RpgMvc\Publish\RpgMvc.dll
+D:\Projetos\YagoHugo\DS1\Aula013\RpgApi\RpgMvc\Publish\RpgMvc.deps.json
+D:\Projetos\YagoHugo\DS1\Aula013\RpgApi\RpgMvc\Publish\RpgMvc.runtimeconfig.json
+D:\Projetos\YagoHugo\DS1\Aula013\RpgApi\RpgMvc\Publish\RpgMvc.pdb
+D:\Projetos\YagoHugo\DS1\Aula013\RpgApi\RpgMvc\Publish\Microsoft.AspNetCore.JsonPatch.dll
+D:\Projetos\YagoHugo\DS1\Aula013\RpgApi\RpgMvc\Publish\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\Projetos\YagoHugo\DS1\Aula013\RpgApi\RpgMvc\Publish\Newtonsoft.Json.dll
+D:\Projetos\YagoHugo\DS1\Aula013\RpgApi\RpgMvc\Publish\Newtonsoft.Json.Bson.dll
