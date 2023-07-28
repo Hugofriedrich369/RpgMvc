@@ -53,5 +53,5 @@ jobs:
         with:
           app-name: 'RpgMvc'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_DA7A3266A9CD445AAE01FF5FB1A3A7FC }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_E25CE850FE4343B79EA18B787A8A7499 }}
           package: .
